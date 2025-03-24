@@ -1,7 +1,7 @@
 [versions]
 workspace_version = "4.4.1.0"
 junit_version = "5.12.0"
-junit_platform_version = "1.12.0"
+junit_platform_version = "1.12.1"
 awaitility_version = "4.3.0"
 eventbus_version = "7.0.2+WilderForge"
 
