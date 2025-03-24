@@ -34,7 +34,7 @@ libs/
 providerSettings.json
 
 #Mixin
-.mixin/*
+.mixin.out/*
 
 #Logs
 *.log
