@@ -1,14 +1,12 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "com.wildermods.examplemod.mixin",
+	"package": "com.wildermods.dlc_disabler.mixin",
 	"target": "@env(DEFAULT)",
 	"compatibilityLevel": "JAVA_17",
 	"mixinPriority": 1,
 	"mixins": [
-		"BackgroundInfoMixin",
-		"LegacyUIRootMixin",
-		"MainScreenAccessor",
-		"RootMenuMixin"
+		"ArgumentGobbler",
+		"DLC_Disabler"
 	]
 }

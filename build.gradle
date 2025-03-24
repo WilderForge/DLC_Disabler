@@ -6,7 +6,7 @@ plugins {
 
 version = modVersion //To change the version of your mod, edit modVersion in gradle.properties
 group = "com.wildermods"
-archivesBaseName = "examplemod"
+archivesBaseName = "dlc_disabler"
 
 apply plugin: 'com.wildermods.workspace'
 apply from: 'replaceTokenScript.gradle' //see replaceTokenScript.gradle!
@@ -24,14 +24,6 @@ sourceCompatibility = '17'
 targetCompatibility = '17'
 
 dependencies {
-	
-	/*
-	 * Add any dependencies you need here. In this example mod, we depend on wilderforge
-	 * 
-	 * To add libraries or to change the versions used, you need to modify /gradle/libs.versions.toml
-	 */
-	
-	implementation libs.wilderforge
 	
 	/**********
 	Don't alter the dependencies below.

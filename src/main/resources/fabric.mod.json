@@ -1,26 +1,25 @@
 {
 	"schemaVersion": 1,
-	"id":"examplemod",
+	"id":"disabledlc",
 	"version":"@modVersion@",
 	
-	"name":"ExampleMod",
-	"description": "An Example mod.",
+	"name":"DLC Disabler",
+	"description": "A mod that disables DLC. Intended to be used in conjunction with SteamCMD to test coremod builds with specific DLCs disabled. This mod DOES NOT grant access to content you do not own.",
 	"authors": [
 		"Gamebuster19901"
 	],
 	
 	"contact": {
-		"sources": "https://github.com/WilderForge/ExampleMod",
-		"issues": "https://github.com/WilderForge/ExampleMod/issues",
+		"sources": "https://github.com/WilderForge/DLC_Disabler",
+		"issues": "https://github.com/WilderForge/DLC_Disabler/issues",
 		"homepage": "https://wildermods.com"
 	},
 	
 	"mixins": [
-		"examplemod.mixins.json"
+		"dlc_disabler.mixins.json"
 	],
 	"depends":{
-		"wildermyth": ">=1.16.0",
-		"wilderforge": ">=0.2.0.1"
+		"wildermyth": ">=1.16.0"
 	},
 	"breaks":{
 		"wildermyth": [
@@ -33,12 +32,7 @@
 			"",
 			"",
 			"[title]Programming[]",
-			"Gamebuster [discord]@Gamebuster",
-			"",
-			"",
-			"[title]Art[]",
-			"Delapouite [github]@Delapouite[] - Perspective dice 6 faces random icon (Modified)",
-			"Licenced under CC By 3.0 - https://creativecommons.org/licenses/by/3.0/"
+			"Gamebuster [discord]@Gamebuster"
 		]
 	}
 }
