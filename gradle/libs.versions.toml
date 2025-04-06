@@ -1,17 +1,8 @@
 [versions]
 workspace_version = "4.4.1.0"
-junit_version = "5.12.0"
-junit_platform_version = "1.12.0"
-awaitility_version = "4.3.0"
-eventbus_version = "7.0.2+WilderForge"
 
 #Define the library by defining its module and version reference.
 [libraries]
-junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit_version" }
-junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit_version" }
-junit-platform = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit_platform_version" }
-awaitility = { module = "org.awaitility:awaitility", version.ref = "awaitility_version" }
-eventbus = { module = "net.minecraftforge:EventBus", version.ref = "eventbus_version" }
 
 #Gradle plugins should be defined here. WilderWorkspace is a gradle plugin.
 [plugins]
